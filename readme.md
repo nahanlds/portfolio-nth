@@ -1,5 +1,5 @@
 
-## Projetos que estão no portfolio
+## Projetos que estão nesse portfolio
 
 <br>
 
@@ -12,4 +12,4 @@
 
 - [Calculador de idade](https://calculador-de-idade-nth.vercel.app/)
 
-Em alguns projetos eu utilizei HTML, CSS, TAIWIND CSS, JAVASCRIPT e incusive esse portfolio eu utilizei o tailwind css.
+Em alguns projetos eu utilizei HTML, CSS, TAIWIND CSS, JAVASCRIPT e incusive esse portfolio eu utilizei o Tailwind css.
