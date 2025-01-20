@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link {
+    @apply text-xl text-azul-claro hover:text-azul-hover hover:underline;
+  }
+  
+  .tags {
+    @apply bg-fundo-cinza text-azul-paragrafo rounded;
+  }
+  .tags-font__padding {
+    @apply px-2 py-1 text-xl font-semibold
+  }
+  
+  .card {
+    @apply m-auto w-96 p-4 text-center shadow-3xl rounded-xl md:m-0 md:w-auto;
+  }
+
+}

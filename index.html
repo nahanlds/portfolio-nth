@@ -1,216 +1,392 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="scroll-smooth">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./style.css">
-        <link rel="shortcut icon" href="./imagens/favicon-16x16.png" type="image/x-icon">
-        <title>Porotfolio Nth</title>
-        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
-        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-    </head>
-    <body class="bg-[#DDE6ED]">
-        <main id="home">
-            <header class="text-center text-white py-2 pb-16 md:flex md:justify-around">
-                <h2 class="font-bold text-xl text-[#27374D]">Nth-lds</h2>
-                <nav>
-                    <ul class=" text-[#27374D] min-[320px]:hidden md:flex md:space-x-4">
-                        <li><a href="#projetos" class="font-medium text-[#526D82] text-lg hover:underline">Projetos</a></li>
-                        <li><a href="#contatos" class="font-medium text-[#526D82] text-lg hover:underline">Contatos</a></li>
-                    </ul>
-                </nav>
-            </header>  
-            <div class="py-10 mx-4 my-10 max-w-2xl md:m-auto lg:w-auto md:max-w-3xl">
-                <figure class="py-4">
-                    <img title="nathan" src="./imagens/1663374088172.jpeg" alt="foto de perfil nathan" class="rounded-full shadow-[#526D82] shadow-lg m-auto">
-                </figure>
-                <h1 class="font-bold text-2xl text-[#27374D]">Olá,<br>Eu sou Nathan Desenvolvedor front-end</h1>
-                <p class="font-semibold text-[#27374D]">Bem-vindo ao meu portifolio</p>
-                <br>
-                <p class="font-medium text-[#526D82] text-lg">Tenho conhecimento em <strong>Html, Css, Javascript, Tailwindcss, Bootstrap e Sass</strong> e atualmente estou estudando typescript e React e busco me aprimorar cada vez mais. Sou uma pessoa dedicada e apaixonada por tecnologia e jogos.</p>
-                <ul class="flex justify-center gap-8">
-                    <li class="py-4">
-                        <a href="https://github.com/nahanlds" class="text-[#526D82] text-[30px]">
-                            <i class="fi fi-brands-github"></i>
-                        </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="./imagens/favicon-16x16.png"
+      type="image/x-icon"
+    />
+    <title>Porotfolio Nth</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  
+  <body class="bg-fundo-branco">
+    <header>
+      <nav
+        class="dark:bg-black fixed left-0 right-0 top-2 m-auto mt-2 w-10/12 rounded-xl bg-fundo-branco/80 px-6 py-4 text-center shadow-lg md:flex md:justify-between"
+      >
+        <h1 class="text-xl font-medium text-azul-escuro">
+          Nth-lds<span class="font-bold text-azul-claro">.Dev</span>
+        </h1>
 
-                    </li>
-                    <li class="py-4">
-                        <a href="https://www.linkedin.com/in/nathan-lima-dias-silva-8413b024b/" class="text-[#526D82] text-[30px]">
-                            
-                            <i class="fi fi-brands-linkedin"></i>
-                        </a>
-                    </li>
-                </ul>
+        <ul class="min-[320px]:hidden md:flex md:space-x-4">
+          <li>
+            <a href="#sobre" class="link font-medium">Sobre</a>
+          </li>
+          <li>
+            <a href="#projetos" class="link font-medium">Projetos</a>
+          </li>
+          <li>
+            <a href="#contatos" class="link font-medium">Contatos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="home">
+      <section>
+        <div
+          class="flex h-80 flex-col justify-center bg-fundo-cinza px-4 pt-5 md:grid md:content-center"
+        >
+          <h2 class="text-3xl font-bold text-azul-escuro md:text-5xl">
+            Olá,
+            <br />
+            Eu sou Nathan Desenvolvedor front-end
+          </h2>
+          <p class="text-lg font-semibold text-azul-escuro">
+            Bem-vindo ao meu portifolio
+          </p>
+        </div>
+        <div class="px-10 py-6 md:m-auto" id="sobre">
+          <figure class="py-5">
+            <img
+              title="foto de perfil"
+              src="./imagens/1663374088172.jpeg"
+              alt="foto de perfil nathan"
+              class="m-auto rounded-full shadow-lg shadow-azul-paragrafo"
+            />
+          </figure>
+          <h2 class="p-5 text-center text-4xl text-azul-escuro">Sobre Mim</h2>
+          <div class="m-auto mb-2 h-2 w-9 rounded bg-azul-claro"></div>
+          <p class="py-6 text-center text-xl font-medium text-azul-paragrafo">
+            Aqui você vai encontrar mais informações sobre mim, o que eu faço,
+            minhas habilidades atuais principalmente em termos de programação e
+            tecnologia
+          </p>
+          <div class="md:flex md:justify-between md:gap-8">
+            <div class="md:max-w-xl">
+              <h3 class="pb-4 text-4xl text-azul-escuro">Me conheça!</h3>
+              <p class="pb-3 text-xl font-medium text-azul-paragrafo">
+                Tenho conhecimento em html, css, javascript e react.js, fazendo
+                cursos online e praticando muito. Agora estou estudando o
+                typescript para me aprimorar. Gosto de criar interfaces bonitas,
+                funcionais e responsivas para os usuários.
+              </p>
+              <p class="pb-3 text-xl font-medium text-azul-paragrafo">
+                Um dos meus maiores desafios foi aprender a usar o react.js,
+                pois é uma biblioteca muito poderosa e complexa. Mas com
+                dedicação e persistência, consegui dominar os conceitos básicos
+                e criar alguns projetos simples.
+              </p>
+              <p class="pb-4 text-xl font-medium text-azul-paragrafo">
+                Espero que você goste do meu portfolio e que possamos colaborar
+                em projetos futuros.
+              </p>
             </div>
 
-            <!--Projetos-->
-            <section id="projetos" class="text-white py-10 lg:px-10" >
-                <h2 class=" text-center py-4 text-2xl text-[#27374D]">Projetos</h2>
-                <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 place-items-center">
-
-
-                    <div class="text-center border p-4 m-2 rounded-xl hover:border-[#526D82] hover:shadow-[#19376D] shadow-xl max-w-xs transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-10 duration-300">
-                        
-                        <img title="newsletter alura" src="./imagens/imgProjetos/imagem newsletter.png" alt="imagem da newsletter" class=" h-44 w-80 mb-3 rounded-2xl shadow-slate-800/50 shadow-xl">
-                        
-                        <h3 class="font-medium pb-4 text-[#27374D] text-xl">Alura Newslletter</h3>
-                        <!-- <p class="text-[#526D82]">landing page</p> -->
-                        <p class="pb-4 text-[#526D82] font-semibold">HTML TAILWINDCSS CSS</p>
-                        <div class="flex gap-4 justify-center">
-                            <a href="https://github.com/nahanlds" target="_blank" class="text-[#526D82] text-[23px]">
-                                <i class="fi fi-brands-github"></i>
-                            </a>
-                            <a href="https://alura-newsletter-pied.vercel.app/" target="_blank" class="text-[#526D82] text-[23px]">
-                                <i class="fi fi-rr-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="text-center border p-4 m-2 rounded-xl hover:border-[#526D82] hover:shadow-[#19376D] shadow-xl max-w-xs transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-10 duration-300">
-                        
-                        <img title="todo list" src="./imagens/imgProjetos/todo-list.png" alt="imagem do desafio" class="h-44 w-80 mb-3 rounded-2xl shadow-slate-800/50 shadow-xl">
-                        
-                        <h3 class="font-medium pb-4 text-[#27374D] text-xl">todo list simples</h3>
-                        <!-- <p class="text-[#526D82]">to do list simples com adicionar, concluir e excluir uma tarefa</p> -->
-                        <p class="pb-4 text-[#526D82] font-semibold">HTML CSS JAVASCRIPT</p>
-                        <div class="flex gap-4 justify-center">
-                            <a href="https://github.com/nahanlds" target="_blank" class="text-[#526D82] text-[23px]">
-                                <i class="fi fi-brands-github"></i>
-                            </a>
-                            <a href="https://todo-list-nth.vercel.app/" target="_blank" class="text-[#526D82] text-[23px]">
-                                <i class="fi fi-rr-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="text-center border p-4 m-2 rounded-xl hover:border-[#526D82] hover:shadow-[#19376D] shadow-xl max-w-xs transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-10 duration-300">
-                        
-                        <img title="calculadoara" src="./imagens/imgProjetos/calculadoara.png" alt="imagem do desafio" class="h-44 w-80 mb-3 rounded-2xl shadow-slate-800/50 shadow-xl">
-                        
-                        <h3 class="font-medium pb-4 text-[#27374D] text-xl">Calculadora</h3>
-                        <!-- <p class="text-[#526D82]">Calculadora simples</p> -->
-                        <p class="pb-4 text-[#526D82] font-semibold">HTML CSS JAVASCRIPT</p>
-                        <div class="flex gap-4 justify-center">
-                            <a href="https://github.com/nahanlds" target="_blank" class="text-[#526D82] text-[23px]">
-                                <i class="fi fi-brands-github"></i>
-                            </a>
-                            <a href="https://calculadora-nth.vercel.app/" target="_blank" class="text-[#526D82] text-[23px]">
-                                <i class="fi fi-rr-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="text-center border p-4 m-2 rounded-xl hover:border-[#526D82] hover:shadow-[#19376D] shadow-xl max-w-xs transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-10 duration-300">
-                    
-                        <img title="calculador de idade" src="./imagens/imgProjetos/calculador-de-idade.png" alt="imagem da calculadora de idade" class="h-44 w-80 mb-3 rounded-2xl shadow-slate-800/50 shadow-xl">
-                        
-                        <h3 class="font-medium pb-4 text-[#27374D] text-xl">Calculador de idade</h3>
-                        <!-- <p class="text-[#526D82]">Calculador de iadde, onde você vê quantos anos, messes e dias você tem de quando você nasceu</p> -->
-                        <p class="pb-4 text-[#526D82] font-semibold">HTML CSS JAVASCRIPT</p>
-                        <div class="flex gap-4 justify-center">
-                            <a href="https://github.com/nahanlds" target="_blank" class="text-[#526D82] text-[23px]">
-                                <i class="fi fi-brands-github"></i>
-                            </a>
-                            <a href="https://calculador-de-idade-nth.vercel.app/" target="_blank" class="text-[#526D82] text-[23px]">
-                                <i class="fi fi-rr-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="text-center border p-4 m-2 rounded-xl hover:border-[#526D82] hover:shadow-[#19376D] shadow-xl max-w-xs transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-10 duration-300">
-                    
-                        <img title="Meteora" src="./imagens/imgProjetos/Captura de tela 2023-08-08 175024.png" alt="imagem da calculadora de idade" class="h-44 w-80 mb-3 rounded-2xl shadow-slate-800/50 shadow-xl">
-                        
-                        <h3 class="font-medium pb-4 text-[#27374D] text-xl">Meteora</h3>
-                        <!-- <p class="text-[#526D82]">Calculador de iadde, onde você vê quantos anos, messes e dias você tem de quando você nasceu</p> -->
-                        <p class="pb-4 text-[#526D82] font-semibold">HTML CSS JAVASCRIPT BOOTSTRAP</p>
-                        <div class="flex gap-4 justify-center">
-                            <a href="https://github.com/nahanlds" target="_blank" class="text-[#526D82] text-[23px]">
-                                <i class="fi fi-brands-github"></i>
-                            </a>
-                            <a href="https://nahanlds.github.io/meteora/" target="_blank" class="text-[#526D82] text-[23px]">
-                                <i class="fi fi-rr-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="text-center p-4 m-2 rounded-xl hover:border-[#526D82] hover:shadow-[#19376D] shadow-xl max-w-xs transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-10 duration-300">
-                        
-                        <img title="7days of code da alura" src="./imagens/imgProjetos/Captura de tela 2023-09-25 174740.png" alt="imagem do desafio de 7dias de codigo da alura" class="h-44 w-80 mb-3 rounded-2xl shadow-slate-800/50 shadow-xl">
-                        
-                        <h3 class="font-medium pb-4 text-[#27374D] text-xl">Dasboard-nth</h3>
-                        <p class="text-[#526D82]">Em desenvolvimento</p>
-                        <p class="pb-4 text-[#526D82] font-semibold">HTML CSS JAVASCRIPT</p>
-                        <div class="flex gap-4 justify-center">
-                            <a href="https://github.com/nahanlds" target="_blank" class="text-[#526D82] text-[23px]">
-                                <i class="fi fi-brands-github"></i>
-                            </a>
-                            <a href="https://dashboard-nth.vercel.app/" target="_blank" class="text-[#526D82] text-[23px]">
-                                <i class="fi fi-rr-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <h3 class="text-center py-10 text-2xl text-[#27374D]">Ferramentas que conheço e utilizo</h3>
-            <div class=" py-4 flex flex-wrap gap-8 justify-center">
-                <div class=" text-center hover:shadow-xl hover:shadow-slate-500 hover:-translate-y-5 duration-300">
-                    <img class="w-28  max-h-28" src="./imagens//imgLogos/logo-html-5-256.png" alt="logo html">
-                    <p class="text-[#526D82] font-semibold">HTML</p>
-                </div>
-                <div class=" text-center hover:shadow-xl hover:shadow-slate-500 hover:-translate-y-5 duration-300">
-                    <img class="w-28  max-h-28" src="./imagens/imgLogos/logo-css-3-256.png" alt="logo css">
-                    <p class="text-[#526D82] font-semibold">CSS</p>
-                </div>
-                <div class=" text-center hover:shadow-xl hover:shadow-slate-500 hover:-translate-y-5 duration-300">
-                    <img class="w-28  max-h-28" src="./imagens/imgLogos/logo-javascript-256.png" alt="logo javascript">
-                    <p class="text-[#526D82] font-semibold">JAVASCRIPT</p>
-                </div>
-                <div class=" text-center hover:shadow-xl hover:shadow-slate-500 hover:-translate-y-5 duration-300">
-                    <img class="w-28  max-h-28" src="./imagens/imgLogos/logo-react-256.png" alt="logo React">
-                    <p class="text-[#526D82] font-semibold">REACT</p>
-                </div>
-                <div class=" text-center hover:shadow-xl hover:shadow-slate-500 hover:-translate-y-5 duration-300">
-                    <img class="w-28  max-h-28" src="./imagens/imgLogos/tailwind-css-256.png" alt="logo tailwind">
-                    <p class="text-[#526D82] font-semibold">TAILWINDCSS</p>
-                </div>
-                <div class=" text-center hover:shadow-xl hover:shadow-slate-500 hover:-translate-y-5 duration-300">
-                    <img class="w-28  max-h-28" src="./imagens/imgLogos/bootstrap-256.png" alt="logo Bootstrap">
-                    <p class="text-[#526D82] font-semibold">BOOTSTRAP</p>
-                </div>
+            <div class="md:max-w-xl py-4">
+              <h3 class="pb-4 text-4xl text-azul-escuro">Ferramentas</h3>
+              <div class="flex flex-wrap gap-2">
+                <span class="tags tags-font__padding">HTML</span>
+                <span class="tags tags-font__padding">CSS</span>
+                <span class="tags tags-font__padding"
+                  >JAVASCRIPT</span
+                >
+                <span class="tags tags-font__padding"
+                  >BOOTSTRAP</span
+                >
+                <span class="tags tags-font__padding"
+                  >TAILWIND CSS</span
+                >
+                <span class="tags tags-font__padding">REACT</span>
+                <span class="tags tags-font__padding">SASS</span>
+                <span class="tags tags-font__padding"
+                  >DESIGN RESPONSIVO</span
+                >
+                <span class="tags tags-font__padding">GIT</span>
+                <span class="tags tags-font__padding">GITHUB</span>
+              </div>
             </div>
+          </div>
+          <ul class="flex justify-center gap-8">
+            <li class="py-4">
+              <a
+                title="github"
+                href="https://github.com/nahanlds"
+                class="text-[30px] text-azul-paragrafo"
+              >
+                <i class="fi fi-brands-github"></i>
+              </a>
+            </li>
+            <li class="py-4">
+              <a
+                title="linkedin"
+                href="https://www.linkedin.com/in/nathan-lima-dias-silva-8413b024b/"
+                class="text-[30px] text-azul-paragrafo"
+              >
+                <i class="fi fi-brands-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
+      <!--Projetos-->
+      <section id="projetos" class="md:px-2 lg:px-10">
+        <h2 class="py-4 text-center text-4xl text-azul-escuro">Projetos</h2>
 
-            <!--CONTATOS-->
-            <div id="contatos" class=" py-10 text-center flex flex-col gap-2 md:m-auto" >
-                <h2 class=" py-2 text-2xl text-[#27374D]">Contatos</h2>
-                <p class="text-[#526D82]">Gostou do que viu? É só mandar uma mensagem. Responderei o mais rápido possível.</p>
-                <p class="p-2 text-[#526D82] font-semibold flex gap-2 justify-center">
-                    <i class="fi fi-rr-envelope"></i>
-                    nathanlds179@gmail.com
-                </p>
-                <p class="text-[#526D82] font-semibold select-none flex gap-2 justify-center">
-                    <i class="fi fi-brands-whatsapp "></i>
-                    +55 35 8432-3888</p>
+        <div
+          class="grid grid-cols-1 gap-4 md:grid-cols-2 md:justify-items-center"
+        >
+          <div
+            class="card"
+          >
+            <img
+              title="newsletter alura"
+              src="./imagens/imgProjetos/imagem newsletter.png"
+              alt="imagem da newsletter"
+              class="shadow-slate-800/50 m-3 h-44 w-80 rounded-2xl shadow-xl lg:float-left"
+            />
+
+            <h3 class="pb-4 text-2xl font-medium text-azul-escuro">
+              Alura Newslletter
+            </h3>
+            <p class="pb-3 text-xl text-azul-paragrafo md:text-lg">
+              A Alura Newslletter é projeto onde o intuito foi para aprender a
+              utilizar o fremework de css o tailwind css, onde coloquei em
+              pratica a responsividade, animações e configuração de alguns
+              elemento, design moderno, simples e resposivo.
+            </p>
+            <div class="py-4">
+              <span class="tags px-2 py-1 font-semibold">HTML</span>
+              <span class="tags px-2 py-1 font-semibold">TAILWINDCSS CSS</span>
             </div>
-            
-            <footer class=" p-4 sm:text-center sm:flex md:justify-around md:items-center">
+            <div>
+              <ul class="flex justify-center gap-4">
+                <li>
+                  <a
+                    href="https://github.com/nahanlds"
+                    target="_blank"
+                    class="link"
+                    >ver código
+                    <i class="fi fi-brands-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://alura-newsletter-pied.vercel.app/"
+                    target="_blank"
+                    class="link"
+                    >ver projeto
+                    <i class="fi fi-rr-arrow-up-right-from-square"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
 
-                <img class="min-[320px]:hidden md:block" src="./imagens/favicon-32x32.png" alt="favicon" >
+          <div
+            class="card"
+          >
+            <img
+              title="todo list"
+              src="./imagens/imgProjetos/serenato-foto.png"
+              alt="imagem do desafio"
+              class="shadow-slate-800/50 m-3 h-44 w-80 rounded-2xl shadow-xl lg:float-left"
+            />
 
-                <p class="text-[#526D82]">Desenvolvido por Nathan Lima Dias Silva</p>
-                <a href="#home" class="px-2 pt-2 text-[19px] border border-[#19376D] animate-bounce shadow-md shadow-slate-800 ">
-                    <i class="fi fi-rr-arrow-alt-to-top"></i>
-                </a>
-            </footer>
-            
-            
-        </main>
+            <h3 class="pb-4 text-2xl font-medium text-azul-escuro">
+              Serenatto
+            </h3>
+            <p class="text-xl text-azul-paragrafo md:text-lg">
+              Site de cafeteria onde tem os tipos de cafés, vitaminas, doce e
+              salgados. O site também tem um menu com os tipos de serviços, como
+              café e bistrô, buffet e delivery. Cada categoria tem uma breve
+              descrição dos métodos de preparo e das características dos cafés.
+              O site tem uma seção de contato, onde os clientes podem enviar
+              sugestões ou reclamações sobre os cafés.
+            </p>
+            <div class="py-4">
+              <span class="tags px-2 py-1 font-semibold">HTML</span>
+              <span class="tags px-2 py-1 font-semibold">CSS</span>
+              <span class="tags px-2 py-1 font-semibold">BOOTSTRAP</span>
+            </div>
+            <div>
+              <ul class="flex justify-center gap-4">
+                <li>
+                  <a
+                    href="https://github.com/nahanlds"
+                    target="_blank"
+                    class="link"
+                    >ver código
+                    <i class="fi fi-brands-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://todo-list-nth.vercel.app/"
+                    target="_blank"
+                    class="link"
+                    >ver projeto
+                    <i class="fi fi-rr-arrow-up-right-from-square"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
 
-        <script src="https://cdn.tailwindcss.com"></script>
-        
-    </body>
+          <div
+            class="card"
+          >
+            <img
+              title="Meteora"
+              src="./imagens/imgProjetos/Captura de tela 2023-08-08 175024.png"
+              alt="imagem da calculadora de idade"
+              class="shadow-slate-800/50 m-3 h-44 w-80 rounded-2xl shadow-xl lg:float-left"
+            />
+
+            <h3 class="pb-4 text-2xl font-medium text-azul-escuro">Meteora</h3>
+            <p class="text-xl text-azul-paragrafo md:text-lg">
+              É um site de moda fictício que oferece produtos como camisas,
+              bolsas, calçados, calças, casacos e óculos. A página também
+              informa sobre as facilidades de pagamento pelo PIX, troca grátis,
+              sustentabilidade e cadastro para receber novidades e promoções.
+            </p>
+            <div class="py-4">
+              <span class="tags px-2 py-1 font-semibold">HTML</span>
+              <span class="tags px-2 py-1 font-semibold">CSS</span>
+              <span class="tags px-2 py-1 font-semibold">JAVASCRIPT</span>
+              <span class="tags px-2 py-1 font-semibold">BOOTSTRAP</span>
+            </div>
+            <div>
+              <ul class="flex justify-center gap-4">
+                <li>
+                  <a
+                    href="https://github.com/nahanlds"
+                    target="_blank"
+                    class="link"
+                  >
+                    ver código
+                    <i class="fi fi-brands-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://nahanlds.github.io/meteora/"
+                    target="_blank"
+                    class="link"
+                  >
+                    ver projeto
+                    <i class="fi fi-rr-arrow-up-right-from-square"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="card"
+          >
+            <img
+              title="7days of code da alura"
+              src="./imagens/imgProjetos/Captura de tela 2023-09-25 174740.png"
+              alt="imagem do desafio de 7dias de codigo da alura"
+              class="shadow-slate-800/50 m-3 h-44 w-80 rounded-2xl shadow-xl lg:float-left"
+            />
+
+            <h3 class="pb-4 text-2xl font-medium text-azul-escuro">
+              Dasboard-nth
+            </h3>
+            <p class="text-xl text-azul-paragrafo md:text-lg">
+              A página é um painel de controle de um site fictício que mostra as
+              estatísticas, os funcionários, as ordens recentes e os lembretes
+              do site. A página também permite ao usuário alterar o modo de luz.
+            </p>
+            <span class="px-2 py-1 text-lg font-semibold text-azul-paragrafo"
+              >Em desenvolvimento</span
+            >
+            <div class="py-4">
+              <span class="tags px-2 py-1 font-semibold">HTML</span>
+              <span class="tags px-2 py-1 font-semibold">CSS</span>
+              <span class="tags px-2 py-1 font-semibold">JAVASCRIPT</span>
+            </div>
+            <div>
+              <ul class="flex justify-center gap-4">
+                <li>
+                  <a
+                    href="https://github.com/nahanlds"
+                    target="_blank"
+                    class="link"
+                  >
+                    ver código
+                    <i class="fi fi-brands-github"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://dashboard-nth.vercel.app/"
+                    target="_blank"
+                    class="link"
+                  >
+                    ver projeto
+                    <i class="fi fi-rr-arrow-up-right-from-square"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--CONTATOS-->
+      <section class="mt-5">
+        <div
+          id="contatos"
+          class="flex flex-col gap-2 px-5 py-11 text-center md:m-auto"
+        >
+          <h2 class="py-2 text-4xl text-azul-escuro">Contatos</h2>
+          <p class="text-xl text-azul-paragrafo">
+            Gostou do que viu? É só mandar uma mensagem. Responderei o mais
+            rápido possível.
+          </p>
+          <p
+            class="flex justify-center gap-2 p-2 font-semibold text-azul-paragrafo"
+          >
+            <i class="fi fi-rr-envelope"></i>
+            nathanlds179@gmail.com
+          </p>
+          
+        </div>
+      </section>
+    </main>
+    <footer class="flex justify-around bg-fundo-cinza p-4 md:items-center">
+      <img
+        class="min-[320px]:hidden md:block"
+        src="./imagens/favicon-32x32.png"
+        alt="favicon"
+      />
+
+      <p class="text-xl text-azul-paragrafo">
+        Desenvolvido por Nathan Lima Dias Silva
+      </p>
+      <a
+        href="#home"
+        class="shadow-slate-800 animate-bounce border border-[#19376D] px-2 pt-4 text-[19px] shadow-md sm:pt-2"
+      >
+        <i class="fi fi-rr-arrow-alt-to-top"></i>
+      </a>
+    </footer>
+  </body>
 </html>
